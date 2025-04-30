@@ -17,9 +17,10 @@ function App() {
 
         <div>
           <Routes>
-            //? path parses a string URL path into its separate pathname,search,andhash components.
+            //? path parses a string URL path into its separate
+            pathname,search,andhash components.
             <Route path="/" element={<Recipes />} />
-            <Route path="/recipe:id" element={<RecipeDetail />} />
+            <Route path="/recipe/:id" element={<RecipeDetail />} />
           </Routes>
         </div>
       </div>
