@@ -12,6 +12,7 @@ const RecipeDetail = () => {
         const res = await fetch(`https://dummyjson.com/recipes/${id}`);
         const data = await res.json();
         console.log(data);
+
         setRecipe(data);
       } catch (error) {
         console.log("Error fetching details:", error);
