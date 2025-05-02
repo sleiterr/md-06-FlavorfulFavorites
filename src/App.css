@@ -8,6 +8,18 @@
   color: #888;
 }
 
+header {
+  position: absolute;
+}
+
+nav {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 30px;
+}
+
 .nav_link {
   font-weight: 400;
   font-size: 32px;

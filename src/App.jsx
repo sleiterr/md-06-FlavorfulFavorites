@@ -10,18 +10,20 @@ function App() {
   return (
     //! <BrowserRouter> is a component for setting up routing in React.
     <BrowserRouter>
-      <div>
+      <header>
         <nav>
-          <Link className="nav_link" to="/">Home</Link>
+          <Link className="nav_link" to="/">
+            Home
+          </Link>
         </nav>
+      </header>
 
-        <main>
-          <Routes>
-            <Route path="/" element={<Recipes />} />
-            <Route path="/recipe/:id" element={<RecipeDetail />} />
-          </Routes>
-        </main>
-      </div>
+      <main>
+        <Routes>
+          <Route path="/" element={<Recipes />} />
+          <Route path="/recipe/:id" element={<RecipeDetail />} />
+        </Routes>
+      </main>
     </BrowserRouter>
   );
 }
