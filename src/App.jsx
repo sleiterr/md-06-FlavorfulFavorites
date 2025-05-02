@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <div>
         <nav>
-          <Link to="/">Home</Link>
+          <Link className="nav_link" to="/">Home</Link>
         </nav>
 
         <main>
