@@ -109,3 +109,34 @@
   box-shadow: 0px 2px 4px rgba(45, 45, 45, 0.6);
   transition: 0.3s ease;
 }
+
+/*?  */
+
+.filter_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 60px;
+  margin-bottom: 40px;
+}
+
+.btn_filter {
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 0.04em;
+  text-align: center;
+
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: #1d4ed8;
+  padding: 16px 32px;
+  border-radius: 0.5rem;
+  border: none;
+}
+.btn_filter:hover {
+  background-color: #1e40af;
+  transition: 0.3s ease;
+}

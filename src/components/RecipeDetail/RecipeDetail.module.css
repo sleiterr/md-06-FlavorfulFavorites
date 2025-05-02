@@ -1,0 +1,73 @@
+.fetch_msg {
+  font-weight: 400;
+  font-size: 32px;
+  color: #333;
+  letter-spacing: 0.04em;
+}
+
+.about_container {
+  padding: 90px 0;
+}
+
+.about_box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.about_title {
+  font-weight: 500;
+  font-size: 42px;
+  color: #333;
+  text-align: left;
+  letter-spacing: 0.02em;
+}
+
+.img_about {
+  object-fit: cover;
+  width: 820px;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.recipe_title {
+  font-weight: 500;
+  font-size: 42px;
+
+  letter-spacing: 0.02em;
+  color: #333;
+}
+
+.recipe_list {
+}
+
+.item_list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 0.02em;
+  color: #333;
+  list-style: none;
+}
+
+.about_subtitle {
+  font-weight: 500;
+  font-size: 32px;
+
+  letter-spacing: 0.02em;
+  color: #333;
+}
+
+.desc_recipe {
+  font-weight: 400;
+  font-size: 22px;
+
+  color: #333;
+  text-align: left;
+  letter-spacing: 0.04em;
+}
