@@ -23,6 +23,7 @@ const RecipeDetail = () => {
 
     fetchRecipe();
   }, [id]);
+  
   if (!recipe) return <p className={s.fetch_msg}>Reading...</p>;
 
   return (

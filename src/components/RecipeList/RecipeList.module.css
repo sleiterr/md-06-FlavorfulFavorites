@@ -1,0 +1,112 @@
+.recipe_container {
+  padding: 90px 0;
+}
+
+.list_title {
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  line-height: 1.75rem;
+  color: #111827;
+}
+
+.btn_list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25rem;
+  color: #ffffff;
+
+  background-color: #2563eb;
+  padding: 8px 26px;
+  border-radius: 4px;
+  border: none;
+}
+
+.btn_list:hover {
+  background-color: #467cf1;
+  transition: 0.3s ease;
+}
+
+.list_conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  gap: 60px;
+}
+
+.list_recipe img {
+  object-fit: cover;
+
+  width: 100%;
+  height: 320px;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.list_recipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+
+  max-width: 300px;
+  padding: 0 0 20px 0;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.9);
+  border: 1px solid transparent;
+}
+
+.recipe_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+/*? BTN-LIKE */
+
+.btn_dislike {
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+
+  cursor: pointer;
+  /* padding: 8px 26px; */
+  background-color: white;
+  border: none;
+  box-shadow: 0px 2px 4px rgba(45, 45, 45, 0.2);
+  overflow: hidden;
+  border-radius: 0.5em;
+  transition: all 0.2s ease;
+}
+
+.btn_like {
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+
+  cursor: pointer;
+  /* padding: 8px 26px; */
+  background-color: white;
+  border: none;
+  box-shadow: 0px 2px 4px rgba(45, 45, 45, 0.2);
+  overflow: hidden;
+  border-radius: 0.5em;
+  transition: all 0.2s ease;
+}
+
+.btn_dislike:hover {
+  background-color: #ff004c;
+  box-shadow: 0px 2px 4px rgba(45, 45, 45, 0.6);
+  transition: 0.3s ease;
+}
+
+.btn_like:hover {
+  background-color: #00d5ff;
+  box-shadow: 0px 2px 4px rgba(45, 45, 45, 0.6);
+  transition: 0.3s ease;
+}
